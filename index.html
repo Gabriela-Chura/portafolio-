@@ -4,20 +4,17 @@
 	<meta charset="UTF-8">
 	<title>Portafolio</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="iconos/style.css">
-	<link rel="stylesheet" href="css/animate.css">
+	<!---<link rel="stylesheet" href="iconos/style.css">--->
+	<!---<link rel="stylesheet" href="css/animate.css">--->
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Reem+Kufi" rel="stylesheet">
-	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
 </head>
 <body>
 
 
 <!----------------------------------------HEADER---------------->
-<header  class="fondo">
-       <div class="tapita">
+ <div class="tapita">
         <div class="container"> 
       <div class="row">
        <div class="col-md-3 col-sm-12 col-xs-6">
@@ -31,16 +28,17 @@
             <button class=" btn-menu" type="button" data-toggle="collapse" data-target="#main-navigation"><i class="icon-menu"></i>
             </button>
             </div>
-            
+            <div class="tabs tabs-style-linebox">
              <nav class="hidden-xs">
-             <ul class=" desktop-menu list-inline text-right">
-               <li><a href="#sobremi">SOBRE MÍ</a></li>
-               <li><a href="#servicios">SERVICIOS</a></li>
-               <li><a href="#github">MIS TRABAJOS</a></li>
-               <li><a href="#contacto">CONTÁCTAME</a></li>
-             </ul>
+             <ul id="list-menu">
+							<li><a href="#sobremi"><span>Sobre mí</span></a></li>
+							<li><a href="#servicios"><span>Servicios</span></a></li>
+							<li><a href="#skills"><span>Skills</span></a></li>
+							<li><a href="#github"><span>Portafolio</span></a></li>
+							<li><a href="#contacto"><span>Contáctame</span></a></li>
+						</ul>
          </nav>
-         
+         </div>
          
        
         </div>
@@ -49,18 +47,20 @@
                       <nav class="visible-xs">
                       <div id="main-navigation" class="collapse">
            <ul class="mobile-menu text-right">
-               <li><a href="#sobremi">SOBRE MÍ</a></li>
-               <li><a href="#servicios">SERVICIOS</a></li>
-               <li><a href="#github">MIS TRABAJOS</a></li>
-               <li><a href="#contacto">CONTÁCTAME</a></li>
+               <li><a href="#sobremi">Sobre mí</a></li>
+               <li><a href="#servicios">Servicios</a></li>
+               <li><a href="#skills">Skills</a></li>
+               <li><a href="#github">Portafolio</a></li>
+               <li><a href="#contacto">Contáctame</a></li>
              </ul>
              </div>
             </nav>
          </div>
              </div>
-
-             
-            <div class="frase">
+ 
+ 
+ <header  class="fondo">
+  <div class="frase">
            <h2 class="tti">HOLA, MI NOMBRE ES GABRIELA <br> SOY CODER DE LABORATORIA</h2>
            <hr class="style18">
            <p class="text-center">Estas interesado en desarrollar un sitio web o necesitas una frontend develeper, yo te puedo ayudar <br class="hidden-xs"> con los diferentes servicios que brindo. </p>
@@ -130,6 +130,16 @@
             </div>
          
      </section>
+     <section class="header-banner" id="skills">
+       <div class="container">
+        <div >
+                    <h3 class="text-center">SOBRE MÍ</h3>
+                    <hr class="style18">
+           <p class="text-center">Soy egresada de Laboratoria salí con el títulode Frontend Develepor Jr. desarrollo páginas web en HTML <br class="hidden-xs">/CSS /Javascript. Soy creativa, inteligente y alegre cosa que transmito en cada una de las webs que <br class="hidden-xs"> desarrollo.</p>
+                   
+           </div>
+       </div>
+    </section>
 <!----------------------------------------IMAGENES---------------->     
      <section id="github">
          <div class="container-fluid">
@@ -205,7 +215,9 @@
         </div>
          
      </section>
-     
-     
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <script src="js/main.js"></script>
 </body>
 </html>
