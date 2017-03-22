@@ -112,6 +112,28 @@
 .tabs-style-linebox nav li.tab-current a::after {
   background: black; }
 
+.fondo {
+  background-image: url(../fotos/_MG_4787.JPG);
+  background-position: right;
+  background-size: cover;
+  color: #FFF; }
+
+.frase {
+  padding: 190px 20px;
+  text-align: left;
+  background-color: rgba(129, 126, 126, 0.39);
+  font-family: 'Open Sans', sans-serif; }
+
+.tti {
+  font-family: 'Oswald', sans-serif; }
+
+.boton1 {
+  padding: 10px 10px;
+  background-color: #f8a16b;
+  border-radius: 20px;
+  border: none;
+  font-size: 12px; }
+
 .skills {
   padding: 70px 20px; }
   .skills .content .development-wrapper .development-title {
@@ -122,7 +144,8 @@
   .skills .content .development-wrapper .skills-bar-container {
     position: relative;
     width: 100%;
-    list-style-type: none; }
+    list-style-type: none;
+    padding-left: 0px; }
     .skills .content .development-wrapper .skills-bar-container li {
       width: 100%;
       margin-bottom: 20px; }
@@ -139,7 +162,8 @@
         background: #ececec;
         position: relative;
         width: 100%;
-        height: 10px; }
+        height: 10px;
+        margin-top: 5px; }
         .skills .content .development-wrapper .skills-bar-container li .bar-container .progressbar {
           background: #34495e;
           position: absolute;

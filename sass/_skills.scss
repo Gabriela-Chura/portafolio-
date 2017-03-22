@@ -24,7 +24,8 @@ $progressbar-color: #34495e;
         position: relative;
         width: 100%;
         list-style-type: none;
-        
+        padding-left: 0px;
+		  
         li{
           width: 100%;
           margin-bottom: 20px;
@@ -49,6 +50,7 @@ $progressbar-color: #34495e;
             position: relative;
             width: 100%;
             height: 10px;
+			  margin-top: 5px;
 
             .progressbar{
               background: $progressbar-color;
